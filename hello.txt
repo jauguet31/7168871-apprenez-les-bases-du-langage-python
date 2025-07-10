@@ -1,0 +1,4 @@
+Tous les produits avec prix en dollars :
+Nom : Produit 1, Prix : 10€, Prix en dollars : 12.0$, Description : Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Nom : Produit 2, Prix : 20€, Prix en dollars : 24.0$, Description : Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Nom : Produit 3, Prix : 30€, Prix en dollars : 36.0$, Description : Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

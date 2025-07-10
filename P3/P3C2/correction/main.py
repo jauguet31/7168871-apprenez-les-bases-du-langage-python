@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 # Extraction des informations souhaitées avec Beautiful Soup
-with open("index.html", "r", encoding="utf-8") as file:
+with open("P3\P3C2\correction\index.html", "r", encoding="utf-8") as file:
     soup = BeautifulSoup(file, "html.parser")
 
 # Extraction du titre de la page

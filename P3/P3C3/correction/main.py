@@ -1,7 +1,7 @@
 import csv
 
 
-def extract(filename="input.csv"):
+def extract(filename="P3\P3C3\correction\input.csv"):
     data = []
     with open(filename, "r") as file:
         csv_reader = csv.DictReader(file)
@@ -20,7 +20,7 @@ def transform(data_to_transform):
     return data_to_load
 
 
-def load(data_to_load, filename="output.csv"):
+def load(data_to_load, filename="P3\P3C3\correction\output.csv"):
     with open(filename, mode="w") as file:
         fieldnames = ["nom", "salaire"]
         writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -30,9 +30,9 @@ def load(data_to_load, filename="output.csv"):
 
 
 def main():
-    data_to_transform = extract("input.csv")
+    data_to_transform = extract("P3\P3C3\correction\input.csv")
     data_to_load = transform(data_to_transform)
-    load(data_to_load, "output.csv")
+    load(data_to_load, "P3\P3C3\correction\output.csv")
 
 
 if __name__ == "__main__":
